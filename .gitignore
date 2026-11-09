@@ -1,0 +1,26 @@
+# Local evidence and credentials are never source files.
+.env
+.env.*
+!.env.example
+private/
+evidence/
+work/
+exports/
+__pycache__/
+*.pyc
+*.unity3d
+*.vrca
+*.vrcw
+*.bundle
+*.unitypackage
+*.blend*
+*.glb
+*.gltf
+*.vrm
+*.rdc
+*.dmp
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
